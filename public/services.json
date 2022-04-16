@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Grimes",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Pugh",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Fran",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Lucas",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Camacho",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    },
+    {
+        "id": "6",
+        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "name": "Wolf",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat nam inventore"
+    }
+]
