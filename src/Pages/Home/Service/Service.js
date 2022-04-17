@@ -10,11 +10,11 @@ const Service = ({ service }) => {
     }
     return (
         <div className='service'>
-            <img style={{ width: '400px' }} src={img} alt="" />
+            <img src={img} alt="" />
             <div className='card-content'>
                 <h2>{name}</h2>
                 <p><small>{description}</small></p>
-                <button onClick={() => navigateToServiceDetail(id)}>Know More</button>
+                <button className='service-btn' onClick={() => navigateToServiceDetail(id)}>Know More</button>
             </div>
         </div>
     );

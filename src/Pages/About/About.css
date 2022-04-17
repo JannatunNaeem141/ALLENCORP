@@ -1,0 +1,19 @@
+/* body {
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.about {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-img {
+    width: 50%;
+    text-align: center;
+}

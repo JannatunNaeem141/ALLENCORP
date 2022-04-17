@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
+    console.log(serviceId);
     return (
         <div>
             <h2>Welcome to details {serviceId}</h2>

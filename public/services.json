@@ -1,37 +1,37 @@
 [
     {
         "id": "1",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/X3KBdng/Training.png",
         "name": "Sales Training",
         "description": "An effective Sales training is geared towards persistent hike in sales force performance with customer orientation."
     },
     {
         "id": "2",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/HFQQS8B/Automation.png",
         "name": "Sales Process Automation",
         "description": "In most available technology solutions in the industry today, customers often come back and ask about the final impact on the sales process which in most cases, stays a big question mark."
     },
     {
         "id": "3",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/VVjVZkZ/Retail.png",
         "name": "Retail Solutions",
         "description": "Retail is changing and the pace of change is unprecedented. Brick & Mortar or eCom, retail is strengthening its roots despite all challenges."
     },
     {
         "id": "4",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/sPm89hQ/Demand.png",
         "name": "Demand Generation",
         "description": "Demand generation presents great opportunities for organizations. It charts new business territories for revenue enablement."
     },
     {
         "id": "5",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/qrMNXjF/Database.png",
         "name": "Intelligent Database Services",
         "description": "B2B customer data is multi-dimensional and fast-changing, it decays faster. Experts believe that 94% of all enterprises deal with at least 30-40% data decay of their prospect lists"
     },
     {
         "id": "6",
-        "img": "https://i.ibb.co/Rc8ySBD/service1.jpg",
+        "img": "https://i.ibb.co/LQh9z9H/Analytics.png",
         "name": "Retail Analytics",
         "description": "Lack of synergy between multiple retails ops engine, disconnected, silo occurrence of data and insights across different functions stumps retailers’ effort of effecting accurate productivity & ROI co-relation analysis."
     }

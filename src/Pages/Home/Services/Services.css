@@ -1,3 +1,8 @@
+.services {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .services-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,7 +11,9 @@
 
 .services-title {
     text-align: center;
-    color: blue;
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width:576px) {

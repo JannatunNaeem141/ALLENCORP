@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { signOut } from 'firebase/auth';
+import logo from '../../../images/logo192.png';
 import './Header.css';
 
 const Header = () => {
@@ -14,9 +15,9 @@ const Header = () => {
     }
     return (
         <header>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark">
+            <Navbar className='nav-bar' collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">ALLEN<span className='nav-text'>CORP</span></Navbar.Brand>
+                    <Navbar.Brand className='nav-brand' as={Link} to="/"><img className='nav-logo' src={logo} alt="" />ALLEN<span className='nav-text'>CORP</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
