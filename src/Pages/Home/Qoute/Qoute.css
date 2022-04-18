@@ -1,0 +1,53 @@
+.quote-item {
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    cursor: grab;
+    background-color: #666;
+}
+
+.quote-item .quote {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.quote-item .quote p {
+    font-family: "Be Vietnam", "sans-serif";
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    max-width: 1050px;
+}
+
+.quote-item::before {
+    content: "";
+    position: absolute;
+    top: 80;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: orange;
+}
+
+blockquote {
+    padding: 3em 0;
+    line-height: 1.3;
+}
+
+.quote-item .author {
+    font-family: "Be Vietnam", "sans-serif";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #d6d6d6;
+    margin: 30px 0;
+    display: block;
+}

@@ -2,4 +2,9 @@
     text-align: center;
     color: #fff;
     margin-top: 30px;
+    padding: 30px 0px;
+}
+
+.footer-text span {
+    color: orange;
 }

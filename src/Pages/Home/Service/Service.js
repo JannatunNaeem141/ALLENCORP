@@ -1,4 +1,6 @@
+import { Button } from 'react-bootstrap';
 import React from 'react';
+import { Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import './Service.css';
 
@@ -9,14 +11,16 @@ const Service = ({ service }) => {
         navigate(`/service/${id}`);
     }
     return (
-        <div className='service'>
-            <img src={img} alt="" />
-            <div className='card-content'>
-                <h2>{name}</h2>
-                <p><small>{description}</small></p>
-                <button className='service-btn' onClick={() => navigateToServiceDetail(id)}>Know More</button>
-            </div>
-        </div>
+        <Card className='service'>
+            <Card.Img variant="top" src={img} />
+            <Card.Body className='card-content'>
+                <Card.Title className='card-head'>{name}</Card.Title>
+                <Card.Text>
+                    <small>{description}</small>
+                </Card.Text>
+                <Button variant="primary" className='service-btn' onClick={() => navigateToServiceDetail(id)}>Know More</Button>
+            </Card.Body>
+        </Card>
     );
 };
 

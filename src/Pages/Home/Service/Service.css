@@ -4,16 +4,16 @@
     padding: 8px 8px 10px 8px;
     text-align: center;
     transition: 0.5s;
+    background-color: transparent !important;
 }
-
-/* .service:hover {
-    box-shadow: 20px 20px 60px #bebebe,
-        -20px -20px 60px #ffffff;
-} */
 
 .service:hover {
     box-shadow: 10px 10px 40px #bebebe,
         -10px -10px 40px #ffffff;
+}
+
+.service:hover .card-head {
+    color: orange;
 }
 
 .service img {
@@ -26,17 +26,21 @@
     color: rgb(209, 200, 200);
 }
 
+.card-head {
+    font-weight: bold !important;
+}
+
 .service-btn {
-    width: 150px;
-    height: 40px;
-    border: 1px solid orange;
-    border-radius: 10px;
-    color: orange;
-    background-color: transparent;
-    transition: 0.5s;
+    width: 150px !important;
+    height: 40px !important;
+    border: 1px solid orange !important;
+    border-radius: 10px !important;
+    color: orange !important;
+    background-color: transparent !important;
+    transition: 0.5s !important;
 }
 
 .service-btn:hover {
-    background-color: orange;
-    color: #fff;
+    background-color: orange !important;
+    color: #fff !important;
 }
