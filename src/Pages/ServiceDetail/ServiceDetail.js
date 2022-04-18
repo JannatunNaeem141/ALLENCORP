@@ -1,17 +1,22 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
+import './ServiceDetail.css';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
-    console.log(serviceId);
     return (
-        <div>
-            <h2>Welcome to details {serviceId}</h2>
-            <Link to='/checkout'>
-                <div className='text-center'>
-                    <button className='btn btn-primary'> Checkout</button>
+        <div className='service-details'>
+            <div>
+                <div className='service-text'>
+                    <h2>This page is about details of serviceId: {serviceId}</h2>
+                    <p>Details content is coming soon...</p>
                 </div>
-            </Link>
+                <Link to='/checkout'>
+                    <div className='service-details-btn'>
+                        <button className='checkout-btn'> Checkout</button>
+                    </div>
+                </Link>
+            </div>
         </div>
     );
 };

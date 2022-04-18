@@ -1,0 +1,12 @@
+.checkout {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}

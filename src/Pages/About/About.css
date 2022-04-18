@@ -1,19 +1,23 @@
-/* body {
-    width: 80%;
-    margin: 0 auto;
-} */
-
 .about {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
+    height: 70vh;
 }
 
 .about-content {
     width: 50%;
+    font-size: 18px;
+    color: #fff;
 }
 
 .about-img {
     width: 50%;
     text-align: center;
+}
+
+.about-img img {
+    width: 300px;
+    border: 5px solid orange;
 }
