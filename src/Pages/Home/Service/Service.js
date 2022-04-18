@@ -19,7 +19,7 @@ const Service = ({ service }) => {
                 <Card.Text>
                     <small>{description}</small>
                 </Card.Text>
-                <Button variant="primary" className='service-btn' onClick={() => navigateToServiceDetail(id)}>Know More</Button>
+                <Button variant="primary" className='service-btn' onClick={() => navigateToServiceDetail(id)}>CheckOut</Button>
             </Card.Body>
         </Card>
     );
