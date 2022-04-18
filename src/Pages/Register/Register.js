@@ -4,7 +4,6 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-fireb
 import './Register.css';
 import auth from '../../firebase.init';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
-import { async } from '@firebase/util';
 import Loading from '../Shared/Loading/Loading';
 
 const Register = () => {

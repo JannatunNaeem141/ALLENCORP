@@ -1,0 +1,60 @@
+.login-container {
+    width: 50%;
+    margin: 80px auto;
+    height: 80vh;
+}
+
+.login-head {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    color: orange !important;
+    border: 1px solid orange !important;
+}
+
+::placeholder {
+    color: orange !important;
+    opacity: 0.8 !important;
+}
+
+.form-check {
+    color: #fff;
+}
+
+.form-check-input {
+    font-size: 20px;
+}
+
+.form-check input:checked {
+    background-color: orange;
+}
+
+.submit-btn {
+    background-color: orange !important;
+    border: 1px solid orange !important;
+    font-weight: bold !important;
+    padding: 10px 0px !important;
+}
+
+.submit-btn:hover {
+    background-color: transparent !important;
+    color: orange !important;
+}
+
+.login-text {
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+.login-content {
+    color: #fff;
+}
