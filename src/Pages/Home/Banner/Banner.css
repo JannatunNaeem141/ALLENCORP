@@ -4,9 +4,25 @@
 }
 
 .caption {
-    /* margin-bottom: 200px; */
-    text-align: center;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    top: 40%;
+    top: 35%;
+}
+
+.caption-head {
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+    /* color: #fff; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.caption-text {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+    text-align: left !important;
+    width: 50%;
 }

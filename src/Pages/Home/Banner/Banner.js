@@ -15,8 +15,10 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption className='caption'>
-                    <h3>SUPPORT YOUR BUSINESS WITH INNOVATIVE LEARNING</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <div>
+                        <h3 className='caption-head'>SUPPORT YOUR BUSINESS WITH INNOVATIVE LEARNING</h3>
+                        <p className='caption-text'>Learn how to make innovation a key process, how to plan for it and how to create a suitable business environment for developing your ideas.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -27,8 +29,10 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='caption'>
-                    <h3>BUILD EMPLOYEE CAPABILITIES WITH IMPACTFUL LEARNING</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div>
+                        <h3 className='caption-head'>BUILD EMPLOYEE CAPABILITIES WITH IMPACTFUL LEARNING</h3>
+                        <p className='caption-text'>Want to really develop your employees and ensure they become long-term valuable assets able to lead your business?</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -39,8 +43,10 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='caption'>
-                    <h3>SCALE TALENT READINESS TO DRIVE CHANGE</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <div>
+                        <h3 className='caption-head'>SCALE TALENT READINESS TO DRIVE CHANGE</h3>
+                        <p className='caption-text'>Assess scaling readiness at any time to drive change.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
