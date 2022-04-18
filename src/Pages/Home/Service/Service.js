@@ -8,7 +8,8 @@ const Service = ({ service }) => {
     const { name, img, description, id } = service;
     const navigate = useNavigate();
     const navigateToServiceDetail = id => {
-        navigate(`/service/${id}`);
+        // navigate(`/service/${id}`);
+        navigate('/checkout');
     }
     return (
         <Card className='service'>

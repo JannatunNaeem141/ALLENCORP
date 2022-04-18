@@ -6,6 +6,7 @@ const About = () => {
     return (
         <div className='about'>
             <div className='about-content'>
+                <h2 className='text-center fw-bold'>Jannatun Naeem</h2>
                 <p>
                     Hi! My name is Naeem. I am a full stack web developer, looking to enhance my professional experience. I'm skilled with HTML5, CSS3, JavaScript, Python, React.js, Node.js, MongoDB etc.
                 </p>

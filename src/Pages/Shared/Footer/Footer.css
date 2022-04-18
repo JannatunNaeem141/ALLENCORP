@@ -8,3 +8,11 @@
 .footer-text span {
     color: orange;
 }
+
+@media only screen and (max-width:576px) {
+    .footer-text {
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+}

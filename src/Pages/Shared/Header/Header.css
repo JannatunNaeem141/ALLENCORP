@@ -23,3 +23,34 @@
 .nav-brand {
     font-size: 30px;
 }
+
+
+@media only screen and (max-width:576px) {
+    .nav-logo {
+        width: 25px;
+    }
+
+    .nav-brand {
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        background-color: #333333;
+        padding: 0px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .nav-logo {
+        width: 27px;
+    }
+
+    .nav-brand {
+        font-size: 27px;
+    }
+
+    .navbar-nav {
+        background-color: #333333;
+        padding: 0px 0px 20px 20px;
+    }
+}
