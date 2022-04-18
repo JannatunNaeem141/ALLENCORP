@@ -16,3 +16,10 @@
 .blogs p {
     color: #fff;
 }
+
+@media only screen and (max-width:576px) {
+    .blogs {
+        width: 90%;
+        margin: 60px auto;
+    }
+}
