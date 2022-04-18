@@ -1,6 +1,6 @@
 # ALLENCORP
 
-Live Link: [Create React App](https://github.com/facebook/create-react-app).
+Live Link: [https://corporate-sales-trainer.web.app/](https://corporate-sales-trainer.web.app/).
 
 ### Short description of the project:
 - This site is for a "Corporate Sales Trainer". This is made with React.js . For more technologies on this site, look down below.
@@ -16,4 +16,5 @@ Live Link: [Create React App](https://github.com/facebook/create-react-app).
 - React-Routing
 - React-Bootstrap
 - Firebase Authentication
-- React Firebase Hooks etc.
+- React Firebase Hooks 
+- React Hooks Form etc.
