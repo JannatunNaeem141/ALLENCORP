@@ -1,15 +1,33 @@
 .register-form {
     width: 50%;
-    margin: 0 auto;
+    margin: 80px auto;
+    height: 80vh;
+}
+
+.register-head {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .register-form input:not([type=checkbox]) {
     display: block;
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
     border: 1px solid lightgray;
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
+
+.login-text {
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+/* .checkbox input:checked {
+    background-color: orange;
+} */

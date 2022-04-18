@@ -45,16 +45,16 @@ const Register = () => {
 
     return (
         <div className='register-form'>
-            <h2 className='text-center'>Register</h2>
+            <h2 className='register-head'>Register</h2>
             <form onSubmit={handleRegister}>
-                <input type="text" name="name" id="" placeholder='Your Name' />
-                <input type="email" name="email" id="" placeholder='Email Address' required />
-                <input type="password" name="password" id="" placeholder='Password' required />
+                <input type="text" name="name" id="" placeholder='Your Name' className='form-control' />
+                <input type="email" name="email" id="" placeholder='Email Address' required className='form-control' />
+                <input type="password" name="password" id="" placeholder='Password' required className='form-control' />
                 <input onClick={() => setAccept(!accept)} type="checkbox" name="terms" id="terms" />
-                <label className={accept ? 'ps-2' : 'ps-2 text-danger'} htmlFor="terms">Accept Terms and Conditions</label>
-                <input disabled={!accept} className='btn btn-primary w-50 mx-auto d-block mb-2 mt-2' type="submit" value="Register" />
+                <label className={accept ? 'ps-2 text-white' : 'ps-2 text-danger'} htmlFor="terms">Accept Terms and Conditions</label>
+                <input disabled={!accept} className='submit-btn btn btn-primary w-25 mx-auto d-block mb-2 mt-2' type="submit" value="Register" />
             </form>
-            <p>Already have an account? <Link to='/login' className='text-primary text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
+            <p className='login-content'>Already have an account? <Link to='/login' className='login-text' onClick={navigateLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );

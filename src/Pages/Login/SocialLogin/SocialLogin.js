@@ -38,10 +38,10 @@ const SocialLogin = () => {
             </div> */}
             {errorElement}
             <div>
-                <button onClick={() => signInWithGoogle()} className='sign-in-btn'><img style={{ width: '30px' }} src={google} alt="" /> <span className='px-2'>Google Sign In</span></button>
+                <button onClick={() => signInWithGoogle()} className='sign-in-btn'><img style={{ width: '30px' }} src={google} alt="" /> <span className='px-2'>Google SignIn</span></button>
             </div>
             <div>
-                <button onClick={() => signInWithGithub()} className='sign-in-btn'><img style={{ width: '30px' }} src={github} alt="" /> <span className='px-2'>GitHub Sign In</span></button>
+                <button onClick={() => signInWithGithub()} className='sign-in-btn'><img style={{ width: '30px' }} src={github} alt="" /> <span className='px-2'>GitHub SignIn</span></button>
             </div>
         </div>
     );
