@@ -1,10 +1,12 @@
 import React from 'react';
 import profile from '../../images/Profile.jpg';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 import './About.css';
 
 const About = () => {
     return (
         <div className='about'>
+            <PageTitle title='About Developer'></PageTitle>
             <div className='about-content'>
                 <h2 className='text-center fw-bold'>Jannatun Naeem</h2>
                 <p>

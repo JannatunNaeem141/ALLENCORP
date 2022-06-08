@@ -1,9 +1,11 @@
 import React from 'react';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 import './Blogs.css';
 
 const Blogs = () => {
     return (
         <div className='blogs'>
+            <PageTitle title='Blogs'></PageTitle>
             <div>
                 <div>
                     <h4>1. Whats the difference between authorization and authentication?</h4>

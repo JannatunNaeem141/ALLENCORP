@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
     return (
         <div className='services'>
+            <PageTitle title='Services'></PageTitle>
             <h1 id='services' className='services-title mt-5'> Services</h1>
             <div className="services-container">
                 {
                     services.map(service => <Service
-                        key={service.id}
+                        key={service._id}
                         service={service}
                     ></Service>)
                 }

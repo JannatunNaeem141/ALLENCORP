@@ -5,11 +5,11 @@ import { useNavigate } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({ service }) => {
-    const { name, img, description, id } = service;
+    const { name, img, description, _id } = service;
     const navigate = useNavigate();
     const navigateToServiceDetail = id => {
-        // navigate(`/service/${id}`);
-        navigate('/checkout');
+        navigate(`/service/${id}`);
+        // navigate('/checkout');
     }
     return (
         <Card className='service'>
@@ -19,7 +19,7 @@ const Service = ({ service }) => {
                 <Card.Text>
                     <small>{description}</small>
                 </Card.Text>
-                <Button variant="primary" className='service-btn' onClick={() => navigateToServiceDetail(id)}>CheckOut</Button>
+                <Button variant="primary" className='service-btn' onClick={() => navigateToServiceDetail(_id)}>CheckOut</Button>
             </Card.Body>
         </Card>
     );

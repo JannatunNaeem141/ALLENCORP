@@ -1,22 +1,10 @@
-/* .checkout {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.checkout-text {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 100px;
-} */
-.checkout-form {
+.service-form {
     max-width: 500px;
     margin: 80px auto;
     height: 60vh;
 }
 
-.checkout-head {
+.service-head {
     font-weight: 100;
     color: white;
     text-align: center;
@@ -24,7 +12,7 @@
     border-bottom: 1px solid orange;
 }
 
-.checkout-input {
+.service-input {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -35,7 +23,7 @@
     font-size: 14px;
 }
 
-.checkout-label {
+/* .service-label {
     line-height: 2;
     text-align: left;
     display: block;
@@ -44,9 +32,9 @@
     color: white;
     font-size: 14px;
     font-weight: 200;
-}
+} */
 
-.checkout-button {
+.service-button {
     background: orange;
     color: white;
     text-transform: uppercase;
@@ -56,11 +44,11 @@
     padding: 15px 40px;
     font-size: 16px;
     font-weight: 100;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     transition: 0.5s;
 }
 
-.checkout-button:hover {
+.service-button:hover {
     background-color: transparent;
     border: 1px solid orange;
 }

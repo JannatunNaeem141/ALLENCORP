@@ -17,4 +17,5 @@ Live Link: [https://corporate-sales-trainer.web.app/](https://corporate-sales-tr
 - React-Bootstrap
 - Firebase Authentication
 - React Firebase Hooks 
-- React Hooks Form etc.
+- React Hooks Form 
+- React-Helmet-Async etc.

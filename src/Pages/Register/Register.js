@@ -5,6 +5,7 @@ import './Register.css';
 import auth from '../../firebase.init';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
 import Loading from '../Shared/Loading/Loading';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 
 const Register = () => {
     const [accept, setAccept] = useState(false);
@@ -45,6 +46,7 @@ const Register = () => {
 
     return (
         <div className='register-form'>
+            <PageTitle title='Register'></PageTitle>
             <h2 className='register-head'>Register</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name' className='form-control' />
